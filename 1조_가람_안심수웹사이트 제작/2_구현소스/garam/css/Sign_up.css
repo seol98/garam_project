@@ -1,0 +1,157 @@
+.Page_wrapper {
+    width: 100%;
+    padding: 0 20px;
+    max-width: 1280px;
+    padding-top: 26vh;
+    margin: 0 auto;
+}
+.Title {
+    padding: 80px 0 60px 0;
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.Title_container {
+    position: relative;
+    display: block;
+}
+
+.Title img {
+    width: 32px;
+    position: absolute;
+    right: -28px;
+    top: -12px;
+}
+
+.Dir {
+    padding: 0 0 40px 20px;
+}
+
+.sign-in_notice {
+    color: #f05c09;
+    font-size: 0.75em;
+    padding-left: 16px;
+    padding-bottom: 8px;
+}
+
+.sign-in_Form {
+    border-top: 5px solid #cce4f9;
+    padding: 0 24px;
+}
+
+.sign-in_field {
+    /* border: 1px solid black; */
+    padding: 24px 0;
+    color: #276691;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #cce4f9;
+    position: relative;
+}
+
+.sign-in_field > div:first-child {
+    width: 150px;
+    margin-left: 5%;
+}
+
+.sign-in_field > input {
+    height: 24px;
+    border: #999 1px solid;
+    border-radius: 5px;
+    padding-left: 4px;
+}
+
+.sign-in_Required::before {
+    content: "*";
+    color: #f05c09;
+    position: absolute;
+    left: 2%;
+}
+
+.sign-in_GenderSelect {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sign-in_GenderSelect > div {
+    padding: 0 12px;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.sign-in_Address {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.sign-in_Address_zipcode {
+    display: flex;
+    height: 24px;
+    gap: 4px;
+}
+
+.sign-in_Address_zipcode input {
+    width: 80px;
+}
+
+.sign-in_Address_address {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.sign-in_Address_address input {
+    height: 24px;
+}
+
+.sign-in_Address_address div {
+    font-size: 0.8em;
+    color: #333;
+}
+
+.sign-up_btns {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 40px 0 120px 0;
+}
+
+.sign-up_btns input {
+    padding: 12px 32px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.sign-up_btns > input {
+    background-color: #0088ff;
+    border: none;
+    color: white;
+}
+
+.sign-up_btns a input {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+@media screen and (max-width: 1008px) {
+    .Page_wrapper {
+        padding-top: 24vh;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .sign-in_field {
+        font-size: 1em;
+    }
+}
+
+/* 276691 */
+/* cce4f9 */

@@ -1,0 +1,469 @@
+/* 섹션 2 */
+.st2_title {
+    padding: 100px 25px;
+    text-align: center;
+}
+
+.st2_title p {
+    font-weight: bold;
+    font-size: 2rem;
+}
+.st2_title span {
+    position: relative;
+}
+.st2_title span img {
+    width: 32px;
+    position: absolute;
+    right: -22px;
+    top: -18px;
+}
+
+.section2 {
+    width: 100%;
+}
+
+.st2_wrapper {
+    max-width: 1280px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.st2_inner {
+    width: 440px;
+    height: 550px;
+    margin-left: 10px;
+    background-color: #edf7ff;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0 1px 2px rgba(189, 189, 189, 0.5);    
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+.st2_contens {
+    width: 98%;
+    height: 95%;
+    background-color: #fff;
+    border-radius: 30px 30px 30px 30px;
+    margin: 0 auto;
+    margin-top: 13px;
+
+    
+}
+.ct_title ul p{
+    display: none;
+}
+.ct_title ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px 0 20px;
+}
+.ct_title li {
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    padding-top: 30px;
+    
+}
+.ct_title li a {
+    text-decoration:none;
+    transition:all .3s ease;
+    width:100%;
+    text-align:center;
+    position:relative;
+    padding: 5px 0;
+    color: #276691;
+    font-weight: bold;
+}
+.ct_title li p a {
+    text-decoration:none;
+    transition:all .3s ease;
+    width:100%;
+    text-align:center;
+    position:relative;
+    padding: 5px 0;
+    color: #276691;
+    font-weight: bold;
+}
+.ct_title li a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    left: 50%;
+    bottom:0;   
+    border-bottom:5px solid #276691;
+    width:0;
+    transition:all .3s;
+}
+.ct_title li p a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    left: 50%;
+    bottom:0;   
+    border-bottom:5px solid #276691;
+    width:0;
+    transition:all .3s;
+}
+.ct_title li a:hover::after{
+    width:100%;
+    left: 0;
+}
+.ct_title li p a:hover::after{
+    width:100%;
+    left: 0;
+}
+.ct_title ul li:nth-child(4) {
+    font-size: 1.2rem;
+    padding:30px 0 0 180px;
+    display: none;
+}
+
+.ct_1 {
+    display: flex;
+    padding: 50px 20px 20px 20px;
+}
+.ct_1 {
+    cursor: pointer;
+}
+.ct_1 .ct_1-1 {
+    width: 150px;
+    height: 80px;
+    border-radius: 50%;
+    background: #276691;
+    line-height: 30px;
+    margin-top: 8px;
+}
+.ct_1 .ct_1-1 p {
+   color: #fff;
+}
+.ct_1 .ct_1-1 p:nth-child(1) {
+    padding-top: 5px;
+    font-size: 1.3rem;
+}
+
+.ct_1 .ct_1-1 p:nth-child(2) {
+    padding-bottom: 5px;
+    font-size: 2.2rem;
+}
+.ct_p {
+    padding: 10px 0 0 20px;
+    font-size: 2.2rem;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.ct_s_p {
+    font-size: 1.1rem;
+    float: left;
+    padding-left: 45px;
+    color: #333333;
+}
+
+.ct_2 {
+    width: 85%;
+    margin: 0 auto;
+    border-top: 2px solid #CCCCCC;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+.ct_2:hover {
+    cursor: pointer;
+}
+.ct_2 ul  {
+    width: 100%;
+    margin-top: 20px;
+}
+.ct_2 ul li {
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 50px;
+}
+.ct_2_but button {
+    width: 130px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    background: #7DC8FB;
+    color: #fff;
+    font-size: 1.3rem;
+}
+.ct_2_but button:hover {
+    cursor: pointer;
+}
+
+.ct_2 span {
+    display: none;
+}
+
+/* 섹션2 스위퍼 */
+.swiper {
+    width: 450px;
+    height: 300px;
+    align-content: center;
+    border-radius: 30px 30px 30px 30px;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.bg1 {
+    background-image: url(../img/car_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg1 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.bg2 {
+    background-image: url(../img/car_2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg2 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.bg3 {
+    background-image: url(../img/car_3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg3 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+    .st2_title {
+        text-align: center;
+    }
+    .st2_wrapper {
+        flex-direction: row-reverse;
+        margin: 0 auto;
+    }
+    .st2_inner {
+        width: 55%;
+        
+    }
+
+    .st2_contens {
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .ct_title li {
+        font-size: 1.5rem;
+         
+    }
+    .st2_inner {
+        height: 404px;
+        margin-top: 0;
+    }
+    
+    .ct_1 {
+        min-width: 100px;
+        display: flex;
+        padding: 30px 0 0 20px;
+       
+        
+    }
+    .ct_1 .ct_1-1 {
+        display: flex;
+        padding-top: 10p;
+        width: 50px;
+        height: 28px;
+        border-radius: 40px;
+    }
+    .ct_1 .ct_1-1 p {
+       color: #fff;
+       
+       
+    }
+    .ct_1 .ct_1-1 p:nth-child(1) {
+        padding: 0 0 10px 2px;
+        font-size: 1rem;
+        
+    }
+    .ct_1 .ct_1-1 p:nth-child(2) {
+        padding: 0 0 10px 2px;
+        font-size: 1rem;
+    }
+    .ct_p {
+        
+        font-size: 1.2rem;
+        text-align: left;
+        padding: 11px 0 0 10px;
+        font-weight: bold;
+
+
+    }
+    
+    .ct_s_p {
+        display: none;
+    }
+    
+    .ct_2 {
+        width: 350px;
+        margin: 0 auto;
+        border-top: 2px solid #CCCCCC;
+        padding-bottom: 20px;
+        margin-top: 30px;
+        
+    }
+    .ct_2 ul  {
+        width: 100%;
+        margin-top: 20px;
+        line-height: 20px;
+    }
+    .ct_2 ul li {
+        text-align: left;
+        font-size: 1.1rem;
+        line-height: 40px;
+    }
+    .ct_p .p_z {
+        display: none;
+    }
+    .ct_2 ul li:nth-child(1) {
+        font-size: 1rem;
+        
+    }
+    .ct_2 ul li:nth-child(2) {
+        font-size: 1rem;
+        
+    }
+    .ct_2 ul li:nth-child(3) {
+        font-size: 1rem;
+        
+    }
+    
+    
+    .swiper {
+        width: 40%;
+        height: 400px;
+      }
+}
+
+@media screen and (min-width: 1280px) {
+    .ct_title {
+        position: relative;
+        width: 80%;
+    }
+    .ct_title p {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        margin: 45px 0 600px 600px;
+        padding-bottom: 120px;
+        
+    }
+    .ct_title ul p{
+        display: block;
+    }
+    .ct_title ul p:nth-child(4):hover{
+        color:black
+    }
+    .ct_title ul {
+        justify-content: flex-start;
+        
+    }
+    .ct_title li {
+        padding: 20px 30px 30px 35px;
+        font-size: 1.2rem;
+    }
+    .ct_title ul li:nth-child(4) {
+        font-size: 1.2rem;
+        display: block;
+    }
+    .st2_inner {
+        width: 63%;
+    }
+    .ct_1 {
+        display: flex;
+        height: 70px;
+        padding: 0 0 0 0;
+    }
+    .ct_1 .ct_1-1 {
+        display: flex;
+        flex-direction: column;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background: #276691;
+        line-height: 30px;
+        margin: 0 0 150px 50px;
+    }
+    .ct_1 .ct_1-1 p {
+       color: #fff;
+    }
+    .ct_1 .ct_1-1 p:nth-child(1) {
+        padding-top: 18px;
+        font-size: 1.8rem;
+    }
+    
+    .ct_1 .ct_1-1 p:nth-child(2) {
+        padding-bottom: 5px;
+        font-size: 2.8rem;
+    }
+    
+    .ct_p {
+        padding: 20px 50px 0 30px;
+        font-size: 1.9rem;
+        height: 50px;
+    }
+    
+    
+    .ct_s_p {
+        display: block;
+        padding: 10px 0 50px 205px;
+    }
+    
+    .ct_2 {
+        width: 90%;
+        border-top: 2px solid #CCCCCC;
+        margin-top: 70px;
+        padding-bottom: 20px;
+    }
+    .ct_2 span {
+        display: block;
+    }
+    .ct_2 ul  {
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    
+        
+    }
+    .ct_2 ul li {
+        display: flex;
+        font-size: 1.2rem;
+        justify-content: space-between;
+    }
+    
+    
+
+    .ct_2_but button {
+        display: none;
+        
+    }
+
+    .swiper {
+        width: 35%;
+      }
+}

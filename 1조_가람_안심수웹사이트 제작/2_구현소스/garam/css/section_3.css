@@ -1,0 +1,180 @@
+/* 섹션3 */
+.section3 {
+    background-color: #EDF7FF;
+    margin-top: 65px;
+}
+
+
+.st3_contens {
+    gap: 10px;
+    
+    height: 80%;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 15px;
+}
+.st3_wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 420px;
+    border-radius: 15px;
+    border: 1px solid white;
+    box-shadow: 0 1px 2px rgb(30 30 30 / 0.2);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.st3_img {
+    width: 40%;
+}
+.st3_img img {
+    max-width: 100%;
+    height: 170px;
+    margin: 5px 0 0 5px;
+}
+
+.st3_teex {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5%;
+}
+.st3_teex .st3_txt {
+    padding-top: 20px;
+    padding-left: 10px;
+    
+}
+.st3_teex .st3_txt p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.st3_teex .st3_txt2 {
+    padding-left: 12px;
+    margin-top: 10px;
+    
+}
+.st3_teex .st3_txt2  {
+    padding: 0 0 15px 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+.st3_teex .st3_txt2 p {
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+.st3_price_1 {
+    padding-left: 15px;
+ }
+.st3_price {
+   padding-left: 35px;
+}
+.st3_price_1 p,span {
+    color: #276691;
+}
+.st3_price_1 p {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.st3_price_1 p span {
+    padding-left: 5px;
+    font-size: 1.1rem;
+}
+
+.st3_price_1 img {
+    width: 60px;
+    height: 15px;
+}
+
+.AD {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    margin-left: 10px;
+    width: 60px;
+    height: 25px;
+    background-color: #0088ff;
+    border-radius: 0 0 0 5px;
+    margin-left: 10px;
+    padding-top: 3px;
+    color: #fff;
+}
+.ct_2_but2 {
+    padding-top: 15px;
+    text-align: center;
+}
+.ct_2_but2 button {
+    width: 130px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    background: #7DC8FB;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.st3_txt_p {
+    padding: 0 0 0 20px;
+}
+.st3_txt2_p {
+    padding:  0 0 0 40px;
+}
+.st3_price button {
+    padding: 10px 30px;
+   
+    border-radius: 40px;
+    border: none;
+    color: white;
+    background-color: #0088ff;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+@media screen and (min-width: 768px) {
+    .st3_contens {
+        width: 80%;
+        
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .section3 {
+        width: 100%;
+        height: 620px;
+    }
+    .st3_contens {
+        display: flex;
+        width: 100%;
+        height: 300px;
+        border-radius: 0;
+        overflow: hidden;
+        margin: 0 ;
+        
+    }
+    
+    .st3_wrapper {
+        margin: 0 auto;
+        animation: move-left 6000ms linear infinite;
+        margin: 0 20px;
+    }
+     @keyframes move-left {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+    
+    
+    .ct_2_but2 {
+        display: none;
+    } 
+
+    
+}

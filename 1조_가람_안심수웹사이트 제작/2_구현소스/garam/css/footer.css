@@ -1,0 +1,106 @@
+/* 푸터 */
+footer {
+    background-color: #333333;
+    height: 450px
+}
+footer .ft_wrapper {
+   width: 90%;
+   max-width: 1280px;
+   margin: 0 auto;
+   height: 450px;
+   
+}
+footer .ft_wrapper .ft_main_logo {
+text-align: center;
+   margin-top: 60px;
+}
+footer .ft_wrapper img {
+   width: 180px;
+   height: 50px;
+}
+.ft_title span:hover {
+    cursor: pointer;
+}
+footer .ft_wrapper .ft_title {
+   text-align: center;
+   padding: 20px 13px;
+   border-bottom: 1px solid #FFFFFF;
+}
+footer .ft_wrapper .ft_title span {
+    color: #ccc;
+    font-size: 0.9rem;
+}
+.ft_contents {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+footer .ft_wrapper .ft_title .ft_title_2 {
+   padding: 0px 15px;
+}
+
+footer .ft_wrapper .ft_content {
+   padding-top: 25px;
+}
+footer .ft_wrapper .ft_content li {
+    color: #fff;
+ }
+footer .ft_wrapper .ft_content .ft_sns {
+   text-align: center;
+   padding-top: 70px;
+}
+footer .ft_wrapper .ft_content .ft_sns img {
+   width: 60px;
+   height: 60px;
+   padding: 10px;
+}
+
+
+@media screen and (min-width:768px) {
+    .ft_title {
+        text-align: center;
+    }
+  
+    footer .ft_content {
+       text-align: center;
+   }
+}
+
+
+
+
+@media screen and (min-width:1280px) {
+    
+   footer .ft_wrapper .ft_main_logo {
+    text-align: left;
+}
+   
+    footer .ft_content {
+       display: flex;
+       justify-content: space-between;
+       text-align: left;
+   }
+   footer .ft_wrapper .ft_title {
+    text-align: left;
+ }
+ 
+ .ft_contents ul {
+    text-align: left;
+}
+.ft_contents {
+    margin: 0;
+}
+
+footer {
+    background-color: #333333;
+    height: 350px
+}
+footer .ft_wrapper {
+   width: 90%;
+   max-width: 1280px;
+   margin: 0 auto;
+   height: 350px;
+   
+}
+}
+
